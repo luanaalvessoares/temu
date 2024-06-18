@@ -4,7 +4,7 @@ import TemuLogo from '../../assets/images/TemuLogo.webp';
 import Temu1 from '../../assets/images/Temu1.webp';
 import Temu2 from '../../assets/images/Temu2.webp';
 import Temu3 from '../../assets/images/Temu3.webp';
-import GoogleReviews from "../../components/google-reviews/GoogleReviews";
+import GoogleReviews from '../../components/google-reviews/GoogleReviews';
 import Temu4 from '../../assets/images/Temu4.webp';
 import Faq from 'react-faq-component';
 import Logo from '../../assets/images/logo.webp';
