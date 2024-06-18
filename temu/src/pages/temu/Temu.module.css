@@ -1,0 +1,317 @@
+:root {
+    --firstColor: #333;
+    --secondColor: #FFF;
+    --thirdColor: #FA7600;
+    --fontTitle: 2.5em;
+    --fontTitleMobile: 2em;
+    --fontSecondTitle: 1.6em;
+    --fontSubtitle: 1.2em;
+    --fontLargest: 18px;
+    --fontDefault: 15px;
+    --fontSmall: 12px;
+}
+
+.temuSection {
+    padding: 2em 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a.btn {
+    background-color: var(--thirdColor);
+    color: var(--secondColor);
+    padding: 1em 2em;
+    border-radius: 50px;
+}
+
+.temuSection:nth-child(1) {
+    padding-top: 8em;
+}
+
+.temuSection > div {
+    max-width: 1200px;
+}
+
+.temuSection:nth-child(1) > div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+}
+
+.temuSection:nth-child(1) h1 {
+    color: var(--firstColor);
+    font-size: var(--fontTitle);
+    padding-block: 1em 5px;
+    margin-block: 0;
+}
+
+.temuSection:nth-child(1) h2 {
+    color: var(--firstColor);
+    font-size: var(--fontSubtitle);
+    font-weight: 400!important;
+}
+
+.temuSection:nth-child(1) p {
+    color: var(--firstColor)!important;
+    font-size: var(--fontDefault);
+    font-weight: 300!important;
+    margin-block: 2em 3em;
+    width: 80%;
+}
+
+.temuSection:nth-child(1) span {
+    display: block;
+    color: var(--firstColor)!important;
+    font-size: var(--fontSmall);
+    font-weight: 200!important;
+    margin-top: 2em;
+}
+
+.temuSection:nth-child(1) img {
+    width: 100%;
+}
+
+.temuSection:nth-child(2) > div .rows {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    margin-block: 4em;
+}
+
+.temuSection:nth-child(2) > div .rows .rowsImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+        width: 80%;
+    }
+}
+
+.temuSection:nth-child(2) > div .rows h3 {
+    color: var(--firstColor);
+    font-size: var(--fontTitleMobile);
+    padding-bottom: 1em;
+}
+
+.temuSection:nth-child(2) > div .rows p {
+    color: var(--firstColor)!important;
+    font-size: var(--fontDefault);
+    font-weight: 300!important;
+}
+
+.temuSection.temuReviews h1 {
+    display: none;
+}
+
+.temuSection.temuReviews h2 {
+    color: var(--firstColor);
+    font-size: var(--fontTitle);
+    margin-block: 0 1.5em;
+    text-align: center;
+    span {
+        display: block;
+        color: var(--thirdColor);
+        font-weight: 800!important;
+    }
+}
+
+.temuSection:nth-child(4) > div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+}
+
+.temuSection:nth-child(4) h2 {
+    color: var(--firstColor);
+    font-size: var(--fontTitle);
+    padding-block: 1em 5px;
+    margin-block: 0;
+}
+
+.temuSection:nth-child(4) p {
+    color: var(--firstColor)!important;
+    font-size: var(--fontDefault);
+    font-weight: 300!important;
+    margin-block: 2em 3em;
+    width: 80%;
+}
+
+.temuSection:nth-child(4) img {
+    width: 100%;
+}
+
+.temuSection:nth-child(5) {
+    padding-top: 7em;
+}
+
+.temuSection:nth-child(5) .temuFaq {
+    max-width: 800px!important;
+    padding-top: 3em;
+}
+
+.temuSection:nth-child(5) h2 {
+    color: var(--firstColor);
+    font-size: var(--fontSecondTitle);
+    margin-block: .2em;
+    text-align: center;
+}
+
+.temuSection:nth-child(5) h3 {
+    color: var(--firstColor);
+    font-size: var(--fontDefault);
+    font-weight: 400!important;
+    text-align: center;
+}
+
+.temuSection:nth-child(6) {
+    min-height: 500px;
+    background-image: url('../../assets/images/temuFooter.webp');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.temuSection:nth-child(6) > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.temuSection:nth-child(6) img {
+    max-width: 180px;
+}
+
+.temuSection:nth-child(6) h3 {
+    color: var(--firstColor);
+    font-size: var(--fontLargest);
+    font-weight: 900!important;
+    max-width: 800px;
+    text-align: center;
+    margin-bottom: 2em;
+    letter-spacing: 0.5px;
+}
+
+.temuSection:nth-child(6) .copy {
+    color: var(--firstColor);
+    font-size: var(--fontDefault);
+    padding-top: 3em;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 767px) {
+    .temuSection:nth-child(1) {
+        padding-top: 6em;
+    }
+
+    .temuSection:nth-child(1) > div {
+        grid-template-columns: 1fr;
+        gap: 1em;
+    }
+
+    .temuSection:nth-child(1) > div > :first-child {
+        order: 2;
+    }
+
+    .temuSection:nth-child(1) > div div:first-child * {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+    }
+
+    .temuSection:nth-child(1) h1 {
+        font-size: var(--fontTitleMobile);
+        padding-block: .5em .2em;
+    }
+
+    .temuSection:nth-child(1) p {
+        margin-block: 2em;
+    }
+
+    .temuSection:nth-child(1) span {
+        margin-top: 1em;
+    }
+
+    .temuSection:nth-child(2) > div .rows {
+        grid-template-columns: 1fr;
+        gap: 2em;
+        margin-block: 4em;
+        text-align: center;
+    }
+
+    .temuSection:nth-child(2) > div .rows:nth-child(2) div:first-child {
+        order: 2!important;
+    }
+
+    .temuSection:nth-child(2) > div .rows h3 {
+        font-size: var(--fontSecondTitle);
+        padding-bottom: .5em;
+    }
+
+    .temuSection.temuReviews h2 {
+        font-size: var(--fontTitleMobile);
+        margin-block: 0 1em;
+        span {
+            display: inline;
+        }
+    }
+
+    .temuSection:nth-child(4) {
+        padding-top: 0;
+    }
+
+    .temuSection:nth-child(4) > div {
+        grid-template-columns: 1fr;
+        gap: 1em;
+    }
+
+    .temuSection:nth-child(4) > div > :first-child {
+        order: 2;
+    }
+
+    .temuSection:nth-child(4) > div div:first-child * {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+    }
+
+    .temuSection:nth-child(4) h2 {
+        font-size: var(--fontTitleMobile);
+        padding-block: .5em .2em;
+    }
+
+    .temuSection:nth-child(4) p {
+        margin-block: 2em;
+    }
+
+    .temuSection:nth-child(5) {
+        padding-top: 4em;
+    }
+
+    .temuSection:nth-child(6) {
+        background-size: cover;
+    }
+}
